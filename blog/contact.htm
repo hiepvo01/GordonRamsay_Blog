@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Contact Me page</title>
+    <script type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn:wght@600&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&family=Playfair+Display:wght@500&family=Vollkorn:wght@600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/00e83f2913.js" crossorigin="anonymous"></script>
+
+    <meta charset="utf-8">
+    <meta name="author" content="Hiep Vo">
+    <meta name="description" content="Gordon Ramsay Demo">
+  </head>
+
+  <body>
+    <header>
+      <h1>Gordon Ramsay Demo</h1>
+      <ul class="menu">
+        <li><a href="../index.htm" target="_self">Home Page</a></li>
+        <li><a href="about.htm" target="_self">About Me</a></li>
+        <li><a href="contact.htm" target="_self">Contact Me</a></li>
+      </ul>
+    </header>
+
+    <main>
+      <h2>Contact Me</h2>
+      <div id="contact">
+        <p>Have a question or comment? Want to learn more about Gordon's cooking chanels? Send me a note.</p>
+        <h3>Contact Me Form</h3>
+        <form action="/action_page.php">
+            <fieldset>  
+                <legend>Your responses and comments</legend>
+                <label for="name"> Name:</label>
+                <span><input type="text" id="name" name="name"></span>
+                <label for="email"> Email:</label>
+                <span><input type="email" id="email" name="email"></span>
+  
+                <p>Your favorite cooking chanel from Gordon. You MUST choose one:</p>
+                <input type="radio" id="fword" name="channel" value="fword"><a href="https://www.youtube.com/user/theFword" target="_blank"><i class="fas fa-hamburger"></i> The F Word series</a><br>
+                <input type="radio" id="masterclass" name="channel" value="masterclass"> <a href="https://www.masterclass.com/classes/gordon-ramsay-teaches-cooking" target="_blank"><i class="fas fa-money-bill-wave"></i>The MasterClass series</a>
+                
+                <p>Reasons for contacting me. You can choose more than one</p>
+
+                <span><input type="checkbox" id="learn" name="learn" value="learn"> To learn more about cooking shows</span> 
+                <span><input type="checkbox" id="comment" name="comment" value="comment"> Comment on my blog</span>
+                <span><input type="checkbox" id="subscribe" name="subscribe" value="subscribe"> Subsribe to my channel and donate</span>
+                
+                <p>Your Message:</p>
+                <span><textarea rows=5 cols=100></textarea></span>
+                
+                <input type="submit" value="Contact Me" id="contact-submit">
+            </fieldset>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy Copyright 2020 Hiep Vo - Gordon Ramsay Demo</p>
+    </footer>
+  </body>
+</html>

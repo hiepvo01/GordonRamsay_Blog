@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Home File</title>
+    <script type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&family=Playfair+Display:wght@500&family=Vollkorn:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <meta charset="utf-8">
+    <meta name="author" content="Hiep Vo">
+    <meta name="description" content="Gordon Ramsay Demo">
+  </head>
+ 
+  <body>
+    <header id="top">
+      <h1>Gordon Ramsay Demo</h1>
+      <ul class="menu">
+        <li><a href="index.htm" target="_self">Home Page</a></li>
+        <li><a href="blog/about.htm" target="_self">About Me</a></li>
+        <li><a href="blog/contact.htm" target="_self">Contact Me</a></li>
+      </ul>
+    </header>
+    <main class="mainpage">
+      <h2>Home Page</h2>
+
+      <div class="column navigation">
+        <div class="w3-bar-block">
+          <a href="#basic" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>Basic Skills</a> 
+          <a href="#quick" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>Quick Easy</a> 
+          <a href="#high" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>High Class</a>
+        </div>
+      </div>
+
+      <div class="column primary">
+        <div class="cook">
+          <h3 id="basic">Basic Skills</h3>
+          <p id="date"></p>
+        </div>
+        <article class="articles">
+          <figure>
+            <img src="images/kitchenkit.jpg" width="600" height="315" title="These are highend cuisine tutorial" alt="This is an img about highend cuisine">
+            <time datetime="2020-04-21 15:00">April 21, 2020 - 15:00</time>
+            <figcaption><h3>Tools and Ingredients</h3></figcaption>
+            <p>This article consists of tips on basic ingredients and tools in kitchen</p>
+            <p><a href="blog/tools.htm" class="readmore">Click here to learn more</a></p>
+          </figure>
+        </article>
+
+        <article class="articles">
+          <figure>
+            <img src="images/basic-cooking-skills.jpg" width="600" height="315" title="This is basic cooking skills" alt="This is an img about basic cooking skills">
+            <time datetime="2020-04-21 13:00">April 21, 2020 - 13:00</time>
+            <figcaption><h3>Basic Cooking Skills you need to learn</h3></figcaption>
+            <p>This article consist most basic cooking skills for any homecooks</p>
+            <p><a href="blog/basic-skills.htm" class="readmore">Click here to learn more</a></p>
+          </figure>
+        </article>
+        
+        <div class="cook">
+          <h3 id="quick">Quick and Budget</h3>
+        </div>
+
+        <article class="articles">
+          <figure>
+            <img src="images/simple-fast.jpg" width="600" height="315" title="These are simple and fast recipes" alt="This is an img about simple and fast recipes">
+            <time datetime="2020-04-21 14:00">April 21, 2020 - 14:00</time>
+            <figcaption><h3>Simple and Fast Recipes for busy homecooks</h3></figcaption>
+            <p>This article consist recipes that are both fast and delicious for busy times</p>
+            <p><a href="blog/budget-fast.htm" class="readmore">Click here to learn more</a></p>
+          </figure>
+        </article>
+        <article class="articles">
+          <figure>
+            <img src="images/budget.jpg" width="600" height="315" title="These are highend cuisine tutorial" alt="This is an img about highend cuisine">
+            <time datetime="2020-04-21 15:00">April 21, 2020 - 15:00</time>
+            <figcaption><h3>More budget but quality dishes</h3></figcaption>
+            <p>This article consists of more recipes to cook on a budget</p>
+            <p><a href="blog/budget.htm" class="readmore">Click here to learn more</a></p>
+          </figure>
+        </article>
+        <div class="cook">
+          <h3 id="high">High class cuisine</h3>
+        </div>
+        <article class="articles">
+          <figure>
+            <img src="images/steak.jpg" width="600" height="315" title="These are highend cuisine tutorial" alt="This is an img about highend cuisine">
+            <time datetime="2020-04-21 15:00">April 21, 2020 - 15:00</time>
+            <figcaption><h3>Fancy Steak recipes</h3></figcaption>
+            <p>This article consists of recipes of beef and pork steaks</p>
+            <p><a href="blog/steak.htm" class="readmore">Click here to learn more</a></p>
+          </figure>
+        </article>
+        <article class="articles">
+          <figure>
+            <img src="images/highend-masterclass.jpg" width="600" height="315" title="These are highend cuisine tutorial" alt="This is an img about highend cuisine">
+            <time datetime="2020-04-21 15:00">April 21, 2020 - 15:00</time>
+            <figcaption><h3>Fancy Plating Restaurant quality dishes</h3></figcaption>
+            <p>This article consists of recipes and training program to cook like a true masterchef</p>
+            <p><a href="blog/highend.htm" class="readmore">Click here to learn more</a></p>
+          </figure>
+        </article>
+        <p><a href="#top" class="button">Back to top</a></p>
+      </div>
+    </main>
+    
+    <footer>
+      <p>&copy Copyright 2020 Hiep Vo - Gordon Ramsay Demo</p>
+    </footer>
+    <script src="js/basic.js"></script>
+  </body>
+</html>
